@@ -19,7 +19,7 @@ function Main() {
             <a href="https://github.com/Shrikant-AI" target="_blank" rel="noreferrer"><GitHubIcon/></a>
             <a href="https://www.linkedin.com/in/shrikantshinde05/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
-          <h1>Shrikant Shinde</h1>
+          <h1>Shrikant Shinde in progress</h1>
           <p>Software Engineer</p>
 
           <div className="mobile_social_icons">
