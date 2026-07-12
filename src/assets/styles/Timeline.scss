@@ -31,8 +31,36 @@
     color: white;
 }
 
+.current-job {
+    position: relative;
+}
+
+.timeline-date {
+    position: absolute;
+    top: 18px;
+    left: calc(100% + 60px);
+    width: 260px;
+
+    color: #8d8d8d;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.timeline-date div:first-child {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
 @media screen and (max-width: 1170px) {
     .vertical-timeline-element .vertical-timeline-element-date {
         color: rgb(39, 40, 34);
+    }
+
+    .timeline-date {
+        position: relative;
+        left: 0;
+        top: 0;
+        margin-bottom: 15px;
+        width: auto;
     }
 }

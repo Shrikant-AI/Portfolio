@@ -17,16 +17,15 @@
     background-color: #5000ca;
     color: white;
   }
-
-  fieldset {
-    background-color: white;
-  }
 }
 
+/* REMOVE the global label styling */
+/*
 label {
   font-size: 1.2rem;
   font-family: 'DomaineDispNar-Medium', sans-serif;
 }
+*/
 
 .form-flex {
   display: flex;
@@ -45,4 +44,25 @@ form {
 .body-form {
   width: 100% !important;
   margin-bottom: 15px !important;
+}
+
+/* Proper MUI styling */
+.MuiInputBase-root {
+  background-color: white;
+}
+
+.MuiInputLabel-root {
+  font-size: 1rem !important;
+  color: gray !important;
+}
+
+/* When focused (label moves up) */
+.MuiInputLabel-root.Mui-focused {
+  color: red !important;
+  font-size:20px !important;
+}
+
+/* Optional: when field has value */
+.MuiInputLabel-root.MuiFormLabel-filled {
+  color: #5000ca !important;
 }

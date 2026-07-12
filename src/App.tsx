@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from "react";
 import {
   Main,
-  Timeline,
   Expertise,
   Project,
   Contact,
@@ -10,6 +9,9 @@ import {
 } from "./components";
 import FadeIn from './components/FadeIn';
 import './index.scss';
+import Education from "./components/Education";
+import Career from "./components/Career";
+
 
 function App() {
     const [mode, setMode] = useState<string>('dark');
@@ -32,7 +34,8 @@ function App() {
         <FadeIn transitionDuration={700}>
             <Main/>
             <Expertise/>
-            <Timeline/>
+            <Career/>
+            <Education/>
             <Project/>
             <Contact/>
         </FadeIn>
