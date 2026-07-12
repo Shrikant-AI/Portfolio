@@ -7,65 +7,36 @@ import '../assets/styles/Expertise.scss';
 
 const salesforceStack = [
     "Salesforce Administration",
-    "Apex",
-    "Lightning Web Components (LWC)",
-    "SOQL",
     "Flow Builder",
-    "Process Builder",
-    "Triggers",
     "Validation Rules",
     "Reports & Dashboards",
-    "Integration (REST/SOAP)"
+    "SOQL",
+    "Apex",
+    "Triggers",
+    "Integration (REST/SOAP)",
+    "Lightning Web Components (LWC)"
 ];
 
 const frontendStack = [
-    "React",
-    "JavaScript",
-    "TypeScript",
     "HTML5",
     "CSS3",
-    "SASS",
-    "Material UI",
+    "Tailwind CSS",
+    "JavaScript",
+    "TypeScript",
+    "React",
     "Responsive Design",
     "REST APIs",
     "GitHub",
     "Git"
 ];
 
-const labelsFirst = [
-    "React",
-    "TypeScript",
-    "JavaScript",
-    "HTML5",
-    "CSS3",
-    "SASS",
-    "Flask",
-    "Python",
-    "SQL",
-    "PostgreSQL",
-    "Postman"
-];
-
-const labelsSecond = [
+const devOps = [
     "Git",
     "GitHub Actions",
     "Docker",
     "AWS",
     "Azure",
     "Linux",
-    "Snowflake",
-    "Pandas",
-    "Selenium",
-];
-
-const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
 ];
 
 function Expertise() {
@@ -92,7 +63,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Front End Developer</h3>
-                    <p> Passionate about crafting modern, responsive, and user-friendly interfaces 
+                    <p> Passionate about creating modern, responsive, and user-friendly interfaces 
                         using React and contemporary web technologies. Focused on performance, 
                         clean UI/UX, and building seamless user experiences across devices.</p>
                     <div className="flex-chips">
@@ -106,10 +77,10 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <p>Currently learning the after application built process, how to set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
+                        {devOps.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
