@@ -2,9 +2,8 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
-import myPhoto from "../assets/images/MyPhoto.png";
 import myPhoto3 from "../assets/images/MyPhoto3.png";
-import myPhoto2 from "../assets/images/MyPhotoBNW.png";
+
 
 
 function Main() {
