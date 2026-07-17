@@ -7,14 +7,11 @@ import '../assets/styles/Expertise.scss';
 
 const salesforceStack = [
     "Salesforce Administration",
-    "Flow Builder",
-    "Validation Rules",
-    "Reports & Dashboards",
-    "SOQL",
     "Apex",
+    "Lightning Web Components (LWC)",
+    "SOQL",
     "Triggers",
-    "Integration (REST/SOAP)",
-    "Lightning Web Components (LWC)"
+    "Integration (REST/SOAP)"
 ];
 
 const frontendStack = [
@@ -48,10 +45,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faSalesforce} size="3x"/>
                     <h3>Salesforce Admin / Developer</h3>
-                    <p> Experienced in building scalable Salesforce solutions   using both declarative 
-                        and programmatic approaches. Skilled in automating business processes, 
-                        developing Apex logic, creating Lightning components, and integrating 
-                        external systems to deliver efficient enterprise applications.</p>
+                    <p> Experienced in designing and developing scalable Salesforce solutions using both declarative and programmatic approaches. Skilled in Apex, Lightning Web Components (LWC), Flows, SOQL, integrations, and automation to deliver efficient enterprise CRM solutions.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {salesforceStack.map((label, index) => (
@@ -63,9 +57,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faPython} size="3x"/>
                     <h3>Front End Developer</h3>
-                    <p> Passionate about creating modern, responsive, and user-friendly interfaces 
-                        using React and contemporary web technologies. Focused on performance, 
-                        clean UI/UX, and building seamless user experiences across devices.</p>
+                    <p> Passionate about building responsive, accessible, and user-friendly web applications using React and modern frontend technologies, with a focus on clean UI, performance, and maintainable code.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {frontendStack.map((label, index) => (
@@ -77,7 +69,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faDocker} size="3x"/>
                     <h3>DevOps & Automation</h3>
-                    <p>Currently learning the after application built process, how to set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
+                    <p>Currently exploring DevOps practices, including CI/CD pipelines, Docker, cloud deployment, and automation to support efficient application delivery and production releases.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {devOps.map((label, index) => (

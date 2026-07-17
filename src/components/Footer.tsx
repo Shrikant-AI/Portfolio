@@ -10,7 +10,7 @@ function Footer() {
         <a href="https://github.com/Shrikant-AI" target="_blank" rel="noreferrer"><GitHubIcon/></a>
         <a href="https://www.linkedin.com/in/shrikantshinde05/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
       </div>
-      <p>💜</p>
+      <p>&copy; {new Date().getFullYear()} Shrikant Shinde. All rights reserved.</p>
     </footer>
   );
 }

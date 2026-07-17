@@ -20,7 +20,7 @@ function Main() {
             <a href="https://www.linkedin.com/in/shrikantshinde05/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
           </div>
           <h1>Shrikant Shinde</h1>
-          <p>Software Engineer</p>
+          <p>Salesforce Developer | Software Engineer</p>
 
           <div className="mobile_social_icons">
             <a href="https://github.com/Shrikant-AI" target="_blank" rel="noreferrer"><GitHubIcon/></a>

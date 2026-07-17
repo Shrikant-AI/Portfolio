@@ -54,7 +54,7 @@ function Career() {
             <h3 className="vertical-timeline-element-title">Web Development Intern</h3>
             <h4 className="vertical-timeline-element-subtitle">Prodigy Infotech (Remote)</h4>
             <p>
-              Front End Developement 
+              Front End Developer Intern
             </p>
             <p className="experience">
               <strong>Experience:</strong> 1 month
